@@ -9,7 +9,7 @@ The notebooks are designed to be run **sequentially**, with each stage building 
 
 ## Repository Structure
 
-notebooks/
+** notebooks **
 * 01_ingest_parse.ipynb
 * 02_langextract_extract.ipynb
 * 03_embed_retrieve_nlq.ipynb
