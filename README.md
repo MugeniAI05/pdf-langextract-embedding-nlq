@@ -1,15 +1,15 @@
 # PDF → langextract → Embeddings + FAISS Retrieval (NLQ)
 
-This repository contains a **three-stage document processing pipeline** implemented as Jupyter notebooks.  
-The pipeline processes **PDF documents**, extracts structured information using `langextract`, and enables **embedding-based retrieval and natural-language querying (NLQ)** using sentence embeddings and FAISS.
+This repository contains a three-stage document processing pipeline implemented as Jupyter notebooks.  
+The pipeline processes PDF documents, extracts structured information using `langextract`, and enables embedding-based retrieval and natural-language querying (NLQ) using sentence embeddings and FAISS.
 
-The notebooks are designed to be run **sequentially**, with each stage building on the outputs of the previous one.
+The notebooks are designed to be run sequentially, with each stage building on the outputs of the previous one.
 
 ---
 
 ## Repository Structure
 
-** notebooks **
+**Notebooks**
 * 01_ingest_parse.ipynb
 * 02_langextract_extract.ipynb
 * 03_embed_retrieve_nlq.ipynb
