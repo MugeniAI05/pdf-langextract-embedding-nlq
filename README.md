@@ -133,21 +133,8 @@ langextract
 python-dotenv
 sentence-transformers
 faiss-cpu
-## Scope & Limitations
 
-### What this repository does
-- Parses PDFs  
-- Cleans and structures text  
-- Extracts structured information using `langextract`  
-- Enables embedding-based similarity retrieval and NLQ  
-
-### What this repository does not do
-- No LLM answer generation  
-- No RAG pipeline  
-- No agent orchestration  
-- No model fine-tuning or training  
-
----
+```
 
 ## Intended Use
 
@@ -155,5 +142,3 @@ This project demonstrates a practical document processing workflow commonly used
 - Document ingestion pipelines  
 - Structured text extraction  
 - Embedding-based search and retrieval  
-
-The implementation prioritizes clarity, modularity, and inspectability over abstraction.
