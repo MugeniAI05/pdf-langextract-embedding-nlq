@@ -122,8 +122,6 @@ Each step depends on artifacts created by the previous stage.
 
 ## Dependencies
 
-Based strictly on notebook imports:
-
 ```txt
 pandas
 numpy
