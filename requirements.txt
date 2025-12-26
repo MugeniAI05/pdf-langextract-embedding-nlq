@@ -1,0 +1,8 @@
+pandas
+numpy
+tqdm
+pypdf
+langextract
+python-dotenv
+sentence-transformers
+faiss-cpu
